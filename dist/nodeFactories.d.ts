@@ -1,0 +1,18 @@
+import { Output } from "./types";
+import StandardVirtualAudioNode from "./VirtualAudioNodes/StandardVirtualAudioNode";
+export declare const analyser: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const biquadFilter: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const bufferSource: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const channelMerger: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const channelSplitter: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const convolver: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const delay: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const dynamicsCompressor: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const gain: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const mediaElementSource: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const mediaStreamDestination: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const mediaStreamSource: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const oscillator: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const panner: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const stereoPanner: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
+export declare const waveShaper: (output?: Output | undefined, ...rest: any[]) => StandardVirtualAudioNode;
